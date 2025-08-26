@@ -1,0 +1,241 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day","Hi"],
+            "responses": ["Hello! Welcome to VIT-AP University's chatbot. How can I assist you today?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["Goodbye! Feel free to reach out anytime.", "Take care, and have a great day!", "Bye! Come back soon if you have more questions."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["You're very welcome! Let me know if there's anything else I can assist with."],
+            "context": [""]
+        },
+        {
+            "tag": "about_vit_ap",
+            "patterns": ["Tell me about VIT-AP", "What is VIT-AP known for?", "Overview of VIT-AP University"],
+            "responses": [
+                "VIT-AP University is part of the renowned VIT group of institutions, known for delivering quality education. With a focus on academic excellence and strong industry partnerships, VIT-AP aims to be one of the world's finest academic destinations.",
+                "VIT-AP University, located near Vijayawada, Andhra Pradesh, is known for its academic initiative, industry partnerships, and a commitment to excellence. It’s consistently ranked among the top institutions in India."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "sports_facilities",
+            "patterns": ["Tell me about sports at VIT-AP", "What sports facilities are available at VIT-AP?", "Details about VIT-AP sports and recreation","What indoor sports facilities are available?", "Indoor sports at VIT-AP", "VIT-AP indoor sports options","What outdoor sports facilities are available?", "Outdoor sports at VIT-AP", "VIT-AP outdoor sports options","Who are the sports team members?", "Sports faculty contacts", "Physical education team at VIT-AP"],
+            "responses": [
+                "VIT-AP's outdoor sports facilities include:\n- Basketball Court- Volleyball Court,  Tennis Court, Football Field\n- Cricket Field, Throw Ball Court (3 courts). \nVIT-AP's indoor sports facilities include: 6 Badminton Courts, Fitness Gym, Squash Court, TT, Chess & Carroms Hall, Rock Climbing area, Yoga Hall.\nHere are the contacts for the VIT-AP sports team:\n\nDr. N. Ramachandra Rao - Physical Education Director\nPhone: +91-9705273817\nEmail: ped@vitap.ac.in\n\nD. Subhasini - Physical Education Trainer\nPhone: +91-9247795593\nEmail: subhashini.d@vitap.ac.in\n\nDakshi Babu Sanya - Gym Instructor\nPhone: +91-8919699412\nEmail: deekshit.s@vitap.ac.in."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["How can I contact admissions?", "Admissions office contact", "Who should I reach out to for admissions?", "Admissions information"],
+            "responses": [
+                "You can contact the Admissions Office at VIT-AP University as follows:\nDirector Admissions, Room No. SRB-G30, VIT-AP University, Beside AP Secretariat, Near Vijayawada, 522241, Andhra Pradesh. \nEmail: admission@vitap.ac.in \nPhone: 0863 2370444, 7901091283"
+            ],
+            "context": [""]
+        }, 
+        {
+            "tag": "programs",
+            "patterns": ["What programs does VIT-AP offer?", "Tell me about the courses at VIT-AP", "List the programs available"],
+            "responses": [
+                "VIT-AP offers a range of undergraduate, dual degree, integrated, postgraduate, and doctoral programs:\n\n**Undergraduate**: B.Tech. in CSE, CSE (AI & ML), CSE (Blockchain), CSE (Cyber Security), CSE (Data Analytics), CSE (Software Engineering), CSBS, ECE, ECE (Embedded Systems), ECE (VLSI), Mechanical, Mechanical (Automotive Design), Mechanical (Robotics), BBA, B.Com. Finance.\n\n**Dual Degree**: B.Sc. - M.Sc. Data Science (in collaboration with Binghamton University, USA & QpiAI, India Pvt. Ltd.), B.A. - M.A.\n\n**Integrated**: M.Tech. Computer Science and Engineering (with Virtusa), M.Tech. Software Engineering, B.A., LL. B (Hons.), BBA., LL. B (Hons.).\n\n**Postgraduate**: M.Tech. VLSI, M.Sc. Data Science (in collaboration with Binghamton University, USA & QpiAI, India Pvt. Ltd.), M.Sc Chemistry (in collaboration with Mitsui Kinzoku Components India).\n\n**Doctoral**: Programs in Computer Science, Electronics, Mechanical Engineering, Advanced Sciences, Social Sciences, Humanities, Law, and Business."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "admission_process",
+            "patterns": ["How do I apply to VIT-AP?", "What is the admission process?", "How to apply for VIT-AP?"],
+            "responses": [
+                "The admission process at VIT-AP for undergraduate programs requires candidates to appear in the VITEEE (Engineering Entrance Exam). Eligible candidates will be called for online counseling based on their rank, where they can select their preferred campus and program.",
+                "For undergraduate engineering admissions, applicants must have completed a recognized qualifying examination. The final admission will consider the VITEEE rank, followed by online counseling and verification of documents."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "important_dates",
+            "patterns": ["What are the important dates for admission?", "When is the VITEEE exam?", "When does the application close?","college opening dates"],
+            "responses": [
+                "Key dates for VITEEE 2024:\n\n- *Application Deadline: April 10, 2024\n- **VITEEE Exam Dates: April 19 - April 30, 2024\n- **Result Announcement: May 3, 2024 (Tentative)\n- **Counseling Dates*: To be announced\n\nPlease keep an eye on the official VIT-AP website for updates."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "faq_itp_applicable",
+            "patterns": ["Is the 2 + 2 ITP applicable to all branches?", "Is ITP available for all branches at VIT-AP?", "Which branches offer the 2 + 2 ITP program?"],
+            "responses": ["Yes, the 2 + 2 International Transfer Programme (ITP) is applicable to all branches at VIT-AP."],
+            "context": [""]
+        },
+        {
+            "tag": "faq_placement_opportunities",
+            "patterns": ["What are the placement opportunities at VIT-AP?", "Does VIT-AP have good placement options?", "Tell me about placement at VIT-AP"],
+            "responses": [
+                "VIT-AP has a dedicated Placement Centre that works with the central placement cell. The same placement team responsible for VIT's main campus handles placements at VIT-AP, ensuring students have strong opportunities. Most companies visit the Amaravati campus for recruitment, though some may require students to visit Vellore."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Hostels",
+            "patterns": ["What are the food options available to students in the hostels?", "What are the hostel facilities available?", "How is the hostel room allotment done?"],
+            "responses": ["The mess is arranged on the ground floor of both boys' and girls' hostels, which provides both vegetarian and non-vegetarian options. A canteen is available for day scholars.Each hostel room is furnished with a cot, chair, reading table, and cupboard. Provision stores are located in the hostels, where students can buy essentials such as mattresses, pillows, buckets, mugs, locks, stationeries, books, soaps, etc. The hostels are compounded with security details and security cameras. Wardens are available 24×7, and a doctor is also available.The allotment is done based on the preference of your room type and availability. The rooms are allotted on a first-come, first-served basis, after payment of hostel fees"],
+            "context": [""]
+        },
+        {
+            "tag": "documents_needed",
+            "patterns": ["What documents are needed for admission?", "Which documents should I submit?", "Documents required for B.Tech admission"],
+            "responses": ["You will need to submit original documents like your mark sheets, transfer and migration certificates, affidavits, physical fitness certificates, and recent passport-size photos. Copies of your provisional admission letter, Aadhar card, and other relevant documents are also required."],
+            "context": [""]
+            
+        },
+        {
+            "tag": "faq_ece_jobs",
+            "patterns": ["Are ECE (VLSI) and ECE (Embedded Systems) students eligible for ECE jobs?", "Will ECE VLSI and Embedded Systems students get ECE job opportunities?", "Placement for ECE VLSI and Embedded Systems"],
+            "responses": ["Yes, ECE (VLSI) and ECE (Embedded Systems) students are eligible for ECE jobs and will have the same placement opportunities."],
+            "context": [""]
+        },
+        {
+            "tag": "faq_cse_jobs",
+            "patterns": ["Are CSE (Data Analytics) and CSE (Networking & Security) students eligible for CSE jobs?", "Will CSE Data Analytics and Networking students get CSE jobs?", "Placement for CSE Data Analytics and Networking"],
+            "responses": ["Yes, CSE (Data Analytics) and CSE (Networking & Security) students are eligible for CSE jobs and will have the same placement opportunities."],
+            "context": [""]
+        },
+        {
+            "tag": "fee_structure",
+            "patterns": ["Where can I find the fee structure?", "VIT fee structure", "How much are the fees at VIT?"],
+            "responses": [
+              "The fee structure for various programs can be found at this link: https://vit.ac.in/admission/ug/fee-structure."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "campus_details",
+            "patterns": ["How many campuses does VIT have?", "VIT campuses", "List of VIT campuses"],
+            "responses": [
+              "VIT has four campuses: VIT Vellore, VIT Chennai, VIT AP, and VIT Bhopal. VIT Vellore and Chennai are Deemed to be Universities, while VIT-AP and VIT Bhopal are State Private Universities."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "qualifying_exams",
+            "patterns": ["What exams are needed for B.Tech?", "What are the qualifying exams for admission?", "Which exams do I need to take for B.Tech?"],
+            "responses": [
+              "You must appear for VITEEE 2024 or equivalent qualifying exams like the CBSE, ISCE, or an equivalent international diploma. Candidates from outside India must get their qualifications certified by the Association of Indian Universities. NIOS board candidates are also eligible."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "exam_criteria",
+            "patterns": ["What is the percentage required for B.Tech?", "What is the minimum requirement for B.Tech admission?", "Percentage requirement for B.Tech"],
+            "responses": [
+              "Applicants should have a minimum aggregate of 60% in Physics, Chemistry, and Mathematics/Biology in the qualifying exam. SC/ST candidates and students from Jammu and Kashmir, Ladakh, and North Eastern states need a minimum of 50%."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "campus_selection",
+            "patterns": ["Can I choose my campus when applying?", "Can I select campus while applying?", "Campus choice during application"],
+            "responses": [
+              "No, you cannot select the campus while filling the application. You will choose your campus and program during counselling based on your rank."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "management_quota",
+            "patterns": ["Does VIT have management quota?", "Can I get admission through management quota?", "Is there a management quota in VIT?"],
+            "responses": [
+              "No, there is no management quota in VIT. Admission is purely based on merit ranking obtained in VITEEE for B.Tech programs."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "banking_facilities",
+            "patterns": ["What banking facilities are available at VIT-AP?", "Tell me about banking at VIT-AP", "Does VIT-AP have an on-campus bank?", "Are there ATMs on campus?"],
+            "responses": [
+                "VIT-AP University provides convenient banking facilities on campus through Indian Bank, offering a variety of services for students, faculty, and staff. Account management, fund transfers, and bill payments can all be handled within the campus, promoting financial accessibility and literacy for the university community."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "bank_details",
+            "patterns": ["Which bank is available on campus?", "Bank details for VIT-AP", "Bank information at VIT-AP"],
+            "responses": [
+                "The bank on campus is:\n\nBank: Indian Bank\nBranch Name: VIT AP Campus Amaravati\nIFSC Code: IDIB000V144"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "atm_locations",
+            "patterns": ["Where are the ATMs located?", "ATM locations at VIT-AP", "Where can I find ATMs on campus?","Where are atms"],
+            "responses": [
+                "Indian Bank ATMs are strategically positioned across the campus at VIT-AP University, ensuring convenient access for students, faculty, and staff. The ATM locations include:\n\nAB-1: Ground Floor - G02\nCB: Ground Floor - G08\nAB-2: Ground Floor - G12\n\nThese ATMs facilitate essential services like cash withdrawal and deposits, promoting financial independence and convenience within the campus."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "faq_curriculum",
+            "patterns": ["Tell me about the curriculum at VIT-AP", "How is the curriculum at VIT-AP designed?", "Curriculum details of VIT-AP"],
+            "responses": [
+                "The curriculum at VIT-AP is designed with input from industry and academia, evolving to stay in sync with developments in research and industry. VIT-AP also offers a full-semester co-op programme, providing students with valuable work experience and enhancing their placement opportunities."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "transport_facilities",
+            "patterns": ["What transportation facilities are available at VIT-AP?", "Tell me about transport at VIT-AP", "Is there bus service at VIT-AP?", "How can students commute to VIT-AP?"],
+            "responses": [
+                "VIT-AP University offers safe and secure transportation services for day scholars residing in Vijayawada, Guntur, and Tenali. The university provides buses operated by responsible personnel, ensuring a comfortable and reliable commute for students. This service prioritizes student well-being and makes commuting convenient for those in nearby areas."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "transport_contact",
+            "patterns": ["Who can I contact for transport issues?", "Transport contact information at VIT-AP", "Who manages transport services?"],
+            "responses": [
+                "For any transport-related queries or assistance, you can contact:\n\nMr. M Prudhvi\nTransport Executive\nEmail: transportservice@vitap.ac.in\nPhone: 7901091275"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "transport_routes",
+            "patterns": ["What are the transport routes?", "Which areas does the bus service cover?", "Where does the VIT-AP bus service go?"],
+            "responses": [
+                "The VIT-AP bus service covers all areas in Vijayawada, Guntur, and NRI. Day scholars from these regions can conveniently access the transportation service provided by the university, ensuring a smooth commute to and from campus."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "health_care",
+            "patterns": [
+                "Is there a health centre on campus?",
+                "Tell me about the medical facilities at VIT-AP",
+                "What health services are available for students?",
+                "Is there a hospital nearby?",
+                "Does the campus have an ambulance?",
+                "Who are the doctors at the health centre?",
+                "Who is the nursing staff?"
+            ],
+            "responses": [
+                "VIT-AP University has a fully equipped Health Centre to address students' medical needs. Outpatient services are available 24/7 with a 10-bed facility. In case of emergencies, an ambulance service is provided in association with Manipal Hospitals, Vijayawada. For emergencies, contact the ambulance at 7997965624.",
+                "The Health Centre on campus is open 24/7 with a 10-bed facility and emergency ambulance services in partnership with Manipal Hospitals. Nursing staff and doctors are available to support students' health needs. The ambulance number is 7997965624.",
+                "For any medical needs, students can visit the Health Centre on campus, which operates 24/7 and includes outpatient services and a 10-bed facility. Emergency ambulance services are also available. Contact: 7997965624."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "faq_sap",
+            "patterns": ["What is SAP at VIT-AP?", "Semester Abroad Programme details", "What is the Semester Abroad Programme?"],
+            "responses": [
+                "The Semester Abroad Programme (SAP) at VIT-AP allows students to study one semester at a partner international university. This, along with the International Transfer Programme (ITP), provides unique opportunities for international exposure based on student performance."
+            ],
+            "context": [""]
+        }
+    ]
+}
